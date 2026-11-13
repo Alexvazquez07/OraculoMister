@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El Oráculo del Míster</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="main.js"></script>
+    <script type="module" src="datos.js"></script>
+</head>
+
+<body>
+    <main class="card">
+        <h1 class="title">El Rincón del Míster</h1>
+        <p class="subtitle">Pregúntale al entrenador sobre el próximo partido, el VAR o el planteamiento táctico...</p>
+
+        <div class="input-group">
+            <input type="text" id="pregunta-usuario" placeholder="Escribe tu consulta táctica..." autocomplete="off" />
+            <button id="btn-enviar">Aconsejar</button>
+        </div>
+
+        <div id="pantalla-respuesta" class="respuesta-box hidden">
+            <p id="texto-respuesta"></p>
+        </div>
+    </main>
+</body>
+
+</html>
